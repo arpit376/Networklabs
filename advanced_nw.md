@@ -22,7 +22,6 @@ This lab extends a basic Linux network namespace setup by adding a virtual switc
 1. Create host namespaces:
 
 ```
-
 sudo ip netns add host1
 sudo ip netns add host2
 sudo ip netns add host3
@@ -30,10 +29,10 @@ sudo ip netns add host3
 sudo ip netns exec host1 ip link set lo up
 sudo ip netns exec host2 ip link set lo up
 sudo ip netns exec host3 ip link set lo up
-
 ```
 
 2. Create and bring up bridge:
+
 
 ```
 
