@@ -1,5 +1,5 @@
 
-```markdown
+
 # Advanced Linux Network Lab: Bridges, NAT, Policy Routing, VXLAN
 
 This lab extends a basic Linux network namespace setup by adding a virtual switch, a NAT firewall router, policy-based routing, and a VXLAN overlay. It is designed to run on a single Linux host with `iproute2`, `iptables` (or `nftables`), `ping`, and optionally `tcpdump`.
